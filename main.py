@@ -86,7 +86,7 @@ def load_url(ua, sleeptime, proxy):
     #Uncomment below if you don't have chromedriver.exe in root folder
     #browser_driver = path/to/webdriver
     #driver = webdriver.Chrome(executable_path=browser_driver, options=options)
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome('chromedriver',options=options)
     driver.get(url)
     sleep(sleeptime)
     driver.quit()
