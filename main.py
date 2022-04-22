@@ -79,6 +79,7 @@ def scrape_proxies():
 
 def load_url(ua, sleeptime, proxy):
     options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
     options.add_argument('--proxy-server=%s' % (proxy['ip'] + ':' + proxy['port']))
     options.add_argument('user-agent=%s' % ua.random)
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
