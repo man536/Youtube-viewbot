@@ -2,7 +2,7 @@
 
 > **💻 Install**
 ```
-git clone https://github.com/Plasmonix/Youtube-viewbot
+git clone https://github.com/Man536/Youtube-viewbot
 cd Youtube-viewbot
 pip install -r requirements.txt
 ```
